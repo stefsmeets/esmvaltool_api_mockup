@@ -1,0 +1,16 @@
+auxiliary_data_dir: /mnt/e/eScience/climwip/auxiliary_data
+input_files:
+- /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/calculate_weights_climwip/climwip
+- /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/metadata.yml
+log_level: info
+output_file_type: png
+plot_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots/weighted_temperature_graph/weighted_temperature_graph
+profile_diagnostic: false
+recipe: recipe_climwip.yml
+run_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/weighted_temperature_graph/weighted_temperature_graph
+script: weighted_temperature_graph
+version: 2.1.0
+weights: weights_combined.nc
+work_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/weighted_temperature_graph/weighted_temperature_graph
+write_netcdf: true
+write_plots: true

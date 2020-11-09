@@ -1,0 +1,187 @@
+INFO    [2194] 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Veronika Eyring (PI; DLR, Germany - veronika.eyring@dlr.de)
+  Bouwe Andela (NLESC, Netherlands - b.andela@esciencecenter.nl)
+  Bjoern Broetz (DLR, Germany - bjoern.broetz@dlr.de)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (NLESC, Netherlands - n.drost@esciencecenter.nl)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+INFO    [2194] Using config file None
+INFO    [2194] Writing program log files to:
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/main_log.txt
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/main_log_debug.txt
+INFO    [2194] Starting the Earth System Model Evaluation Tool v2.1.0 at time: 2020-10-28 16:11:48 UTC
+INFO    [2194] ----------------------------------------------------------------------
+INFO    [2194] RECIPE   = /home/stef/s/recipe_climwip.yml
+INFO    [2194] RUNDIR     = /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run
+INFO    [2194] WORKDIR    = /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work
+INFO    [2194] PREPROCDIR = /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc
+INFO    [2194] PLOTDIR    = /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots
+INFO    [2194] ----------------------------------------------------------------------
+INFO    [2194] Running tasks using at most 1 processes
+INFO    [2194] If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+INFO    [2194] If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+INFO    [2194] Creating tasks from recipe
+INFO    [2194] Creating tasks for diagnostic calculate_weights_climwip
+INFO    [2194] Creating preprocessor task calculate_weights_climwip/tas
+INFO    [2194] Creating preprocessor 'detrended_std' task for variable 'tas'
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable tas during step mask_landsea
+INFO    [2194] Using input files for variable tas of dataset ACCESS1-0:
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_rcp45_r1i1p1_200601-210012.nc
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable tas during step mask_landsea
+INFO    [2194] Using input files for variable tas of dataset ACCESS1-0:
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_rcp85_r1i1p1_200601-210012.nc
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable tas during step mask_landsea
+INFO    [2194] Using input files for variable tas of dataset ERA5:
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_1995_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_1996_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_1997_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_1998_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_1999_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2000_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2001_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2002_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2003_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2004_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2005_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2006_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2007_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2008_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2009_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2010_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2011_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2012_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2013_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/tas/era5_2m_temperature_2014_monthly.nc
+INFO    [2194] PreprocessingTask calculate_weights_climwip/tas created. It will create the files:
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/native6_ERA5_reanaly_1_Amon_tas_1995-2014.nc
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1995-2014.nc
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1995-2014.nc
+INFO    [2194] Creating preprocessor task calculate_weights_climwip/pr
+INFO    [2194] Creating preprocessor 'climatological_mean' task for variable 'pr'
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable pr during step mask_landsea
+INFO    [2194] Using input files for variable pr of dataset ACCESS1-0:
+/home/stef/default_inputpath/pr_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/pr_Amon_ACCESS1-0_rcp45_r1i1p1_200601-210012.nc
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable pr during step mask_landsea
+INFO    [2194] Using input files for variable pr of dataset ACCESS1-0:
+/home/stef/default_inputpath/pr_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/pr_Amon_ACCESS1-0_rcp85_r1i1p1_200601-210012.nc
+WARNING [2194] Missing data for fx variable 'sftlf'
+WARNING [2194] Missing data for fx variable 'sftof'
+INFO    [2194] Using fx_files: {'sftlf': [], 'sftof': []} for variable pr during step mask_landsea
+INFO    [2194] Using input files for variable pr of dataset ERA5:
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_1995_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_1996_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_1997_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_1998_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_1999_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2000_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2001_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2002_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2003_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2004_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2005_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2006_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2007_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2008_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2009_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2010_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2011_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2012_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2013_monthly.nc
+/home/stef/obs_inputpath/Tier3/ERA5/1/mon/pr/era5_total_precipitation_2014_monthly.nc
+INFO    [2194] PreprocessingTask calculate_weights_climwip/pr created. It will create the files:
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/native6_ERA5_reanaly_1_Amon_pr_1995-2014.nc
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_pr_1995-2014.nc
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_pr_1995-2014.nc
+INFO    [2194] Creating diagnostic task calculate_weights_climwip/climwip
+INFO    [2194] Creating tasks for diagnostic weighted_temperature_graph
+INFO    [2194] Creating preprocessor task weighted_temperature_graph/tas
+INFO    [2194] Creating preprocessor 'temperature_anomalies' task for variable 'tas'
+INFO    [2194] Using input files for variable tas of dataset ACCESS1-0:
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_rcp45_r1i1p1_200601-210012.nc
+INFO    [2194] Using input files for variable tas of dataset ACCESS1-0:
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc
+/home/stef/default_inputpath/tas_Amon_ACCESS1-0_rcp85_r1i1p1_200601-210012.nc
+INFO    [2194] PreprocessingTask weighted_temperature_graph/tas created. It will create the files:
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1960-2100.nc
+/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1960-2100.nc
+INFO    [2194] Creating diagnostic task weighted_temperature_graph/weighted_temperature_graph
+INFO    [2194] These tasks will be executed: calculate_weights_climwip/tas, calculate_weights_climwip/climwip, calculate_weights_climwip/pr, weighted_temperature_graph/weighted_temperature_graph, weighted_temperature_graph/tas
+INFO    [2194] Running 5 tasks sequentially
+INFO    [2194] Starting task calculate_weights_climwip/tas in process [2194]
+INFO    [2194] Successfully completed task calculate_weights_climwip/tas (priority 0) in 0:00:37.476055
+INFO    [2194] Starting task calculate_weights_climwip/pr in process [2194]
+INFO    [2194] Successfully completed task calculate_weights_climwip/pr (priority 1) in 0:00:32.452074
+INFO    [2194] Starting task calculate_weights_climwip/climwip in process [2194]
+INFO    [2194] Running command ['/home/stef/miniconda3/envs/esmvaltool/bin/python3.8', '/home/stef/r/esmvaltool/esmvaltool/diag_scripts/weighting/climwip.py', '/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/calculate_weights_climwip/climwip/settings.yml']
+INFO    [2194] Writing output to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/calculate_weights_climwip/climwip
+INFO    [2194] Writing plots to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots/calculate_weights_climwip/climwip
+INFO    [2194] Writing log to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/calculate_weights_climwip/climwip/log.txt
+INFO    [2194] To re-run this diagnostic script, run:
+cd /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/calculate_weights_climwip/climwip; MPLBACKEND="Agg" /home/stef/miniconda3/envs/esmvaltool/bin/python3.8 /home/stef/r/esmvaltool/esmvaltool/diag_scripts/weighting/climwip.py /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/calculate_weights_climwip/climwip/settings.yml
+INFO    [2194] Maximum memory used (estimate): 0.7 GB
+INFO    [2194] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2194] Successfully completed task calculate_weights_climwip/climwip (priority 2) in 0:00:15.251869
+INFO    [2194] Starting task weighted_temperature_graph/tas in process [2194]
+WARNING [2194] /home/stef/miniconda3/envs/esmvaltool/lib/python3.8/site-packages/iris/analysis/cartography.py:394: UserWarning: Using DEFAULT_SPHERICAL_EARTH_RADIUS.
+  warnings.warn("Using DEFAULT_SPHERICAL_EARTH_RADIUS.")
+
+INFO    [2194] Calculated grid area shape: (1692, 145, 192)
+WARNING [2194] /home/stef/miniconda3/envs/esmvaltool/lib/python3.8/site-packages/iris/analysis/cartography.py:394: UserWarning: Using DEFAULT_SPHERICAL_EARTH_RADIUS.
+  warnings.warn("Using DEFAULT_SPHERICAL_EARTH_RADIUS.")
+
+INFO    [2194] Calculated grid area shape: (1692, 145, 192)
+INFO    [2194] Successfully completed task weighted_temperature_graph/tas (priority 3) in 0:00:26.395926
+INFO    [2194] Starting task weighted_temperature_graph/weighted_temperature_graph in process [2194]
+INFO    [2194] Running command ['/home/stef/miniconda3/envs/esmvaltool/bin/python3.8', '/home/stef/r/esmvaltool/esmvaltool/diag_scripts/weighting/weighted_temperature_graph.py', '/mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/weighted_temperature_graph/weighted_temperature_graph/settings.yml']
+INFO    [2194] Writing output to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/weighted_temperature_graph/weighted_temperature_graph
+INFO    [2194] Writing plots to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots/weighted_temperature_graph/weighted_temperature_graph
+INFO    [2194] Writing log to /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/weighted_temperature_graph/weighted_temperature_graph/log.txt
+INFO    [2194] To re-run this diagnostic script, run:
+cd /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/weighted_temperature_graph/weighted_temperature_graph; MPLBACKEND="Agg" /home/stef/miniconda3/envs/esmvaltool/bin/python3.8 /home/stef/r/esmvaltool/esmvaltool/diag_scripts/weighting/weighted_temperature_graph.py /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/weighted_temperature_graph/weighted_temperature_graph/settings.yml
+INFO    [2194] Maximum memory used (estimate): 0.3 GB
+INFO    [2194] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2194] Successfully completed task weighted_temperature_graph/weighted_temperature_graph (priority 4) in 0:00:04.446194
+INFO    [2194] Ending the Earth System Model Evaluation Tool v2.1.0 at time: 2020-10-28 16:13:45 UTC
+INFO    [2194] Time for running the recipe was: 0:01:57.216007
+INFO    [2194] Maximum memory used (estimate): 3.4 GB
+INFO    [2194] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2194] Run was successful

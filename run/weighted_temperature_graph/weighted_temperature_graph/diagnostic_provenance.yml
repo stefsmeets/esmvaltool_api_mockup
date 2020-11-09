@@ -1,0 +1,32 @@
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots/weighted_temperature_graph/weighted_temperature_graph/temperature_anomaly_graph.png
+: ancestors:
+  - /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1960-2100.nc
+  - /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1960-2100.nc
+  authors:
+  - kalverla_peter
+  - smeets_stef
+  - brunner_lukas
+  - camphuijsen_jaro
+  caption: Temperature anomaly relative to 1981-2010
+  domains:
+  - reg
+  references:
+  - brunner2019
+  - lorenz2018
+  - knutti2017
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/weighted_temperature_graph/weighted_temperature_graph/temperature_anomalies.nc
+: ancestors:
+  - /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1960-2100.nc
+  - /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/weighted_temperature_graph/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1960-2100.nc
+  authors:
+  - kalverla_peter
+  - smeets_stef
+  - brunner_lukas
+  - camphuijsen_jaro
+  caption: Temperature anomaly relative to 1981-2010
+  domains:
+  - reg
+  references:
+  - brunner2019
+  - lorenz2018
+  - knutti2017

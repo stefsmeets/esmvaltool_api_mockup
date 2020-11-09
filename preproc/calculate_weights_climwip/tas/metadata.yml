@@ -1,0 +1,68 @@
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1995-2014.nc
+: alias: CMIP5_historical-rcp45
+  dataset: ACCESS1-0
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  ensemble: r1i1p1
+  exp: historical-rcp45
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_tas_1995-2014.nc
+  frequency: mon
+  institute:
+  - CSIRO-BOM
+  long_name: Near-Surface Air Temperature
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: detrended_std
+  project: CMIP5
+  recipe_dataset_index: 0
+  short_name: tas
+  standard_name: air_temperature
+  start_year: 1995
+  units: K
+  variable_group: tas
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1995-2014.nc
+: alias: CMIP5_historical-rcp85
+  dataset: ACCESS1-0
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  ensemble: r1i1p1
+  exp: historical-rcp85
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_tas_1995-2014.nc
+  frequency: mon
+  institute:
+  - CSIRO-BOM
+  long_name: Near-Surface Air Temperature
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: detrended_std
+  project: CMIP5
+  recipe_dataset_index: 1
+  short_name: tas
+  standard_name: air_temperature
+  start_year: 1995
+  units: K
+  variable_group: tas
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/native6_ERA5_reanaly_1_Amon_tas_1995-2014.nc
+: alias: native6
+  dataset: ERA5
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/native6_ERA5_reanaly_1_Amon_tas_1995-2014.nc
+  frequency: mon
+  long_name: Near-Surface Air Temperature
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: detrended_std
+  project: native6
+  recipe_dataset_index: 2
+  short_name: tas
+  standard_name: air_temperature
+  start_year: 1995
+  tier: 3
+  type: reanaly
+  units: K
+  variable_group: tas
+  version: '1'

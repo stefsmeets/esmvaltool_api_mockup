@@ -1,0 +1,23 @@
+auxiliary_data_dir: /mnt/e/eScience/climwip/auxiliary_data
+input_files:
+- /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/tas/metadata.yml
+- /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/metadata.yml
+log_level: info
+obs_data: native6
+output_file_type: png
+plot_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/plots/calculate_weights_climwip/climwip
+profile_diagnostic: false
+recipe: recipe_climwip.yml
+run_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/run/calculate_weights_climwip/climwip
+script: climwip
+shape_params:
+  pr:
+    sigma_d: 0.658
+    sigma_s: 0.704
+  tas:
+    sigma_d: 0.588
+    sigma_s: 0.704
+version: 2.1.0
+work_dir: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/work/calculate_weights_climwip/climwip
+write_netcdf: true
+write_plots: true

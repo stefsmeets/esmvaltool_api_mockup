@@ -1,0 +1,68 @@
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_pr_1995-2014.nc
+: alias: CMIP5_historical-rcp45
+  dataset: ACCESS1-0
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  ensemble: r1i1p1
+  exp: historical-rcp45
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp45_r1i1p1_pr_1995-2014.nc
+  frequency: mon
+  institute:
+  - CSIRO-BOM
+  long_name: Precipitation
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: climatological_mean
+  project: CMIP5
+  recipe_dataset_index: 0
+  short_name: pr
+  standard_name: precipitation_flux
+  start_year: 1995
+  units: kg m-2 s-1
+  variable_group: pr
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_pr_1995-2014.nc
+: alias: CMIP5_historical-rcp85
+  dataset: ACCESS1-0
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  ensemble: r1i1p1
+  exp: historical-rcp85
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/CMIP5_ACCESS1-0_Amon_historical-rcp85_r1i1p1_pr_1995-2014.nc
+  frequency: mon
+  institute:
+  - CSIRO-BOM
+  long_name: Precipitation
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: climatological_mean
+  project: CMIP5
+  recipe_dataset_index: 1
+  short_name: pr
+  standard_name: precipitation_flux
+  start_year: 1995
+  units: kg m-2 s-1
+  variable_group: pr
+? /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/native6_ERA5_reanaly_1_Amon_pr_1995-2014.nc
+: alias: native6
+  dataset: ERA5
+  diagnostic: calculate_weights_climwip
+  end_year: 2014
+  filename: /mnt/e/eScience/climwip/esmvaltool_output/recipe_climwip_20201028_161147/preproc/calculate_weights_climwip/pr/native6_ERA5_reanaly_1_Amon_pr_1995-2014.nc
+  frequency: mon
+  long_name: Precipitation
+  mip: Amon
+  modeling_realm:
+  - atmos
+  preprocessor: climatological_mean
+  project: native6
+  recipe_dataset_index: 2
+  short_name: pr
+  standard_name: precipitation_flux
+  start_year: 1995
+  tier: 3
+  type: reanaly
+  units: kg m-2 s-1
+  variable_group: pr
+  version: '1'
